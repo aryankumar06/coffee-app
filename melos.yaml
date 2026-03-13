@@ -1,0 +1,19 @@
+name: klub_eats_workspace
+
+packages:
+  - apps/**
+  - packages/**
+
+scripts:
+  postbootstrap:
+    run: flutter pub get
+    exec:
+      concurrency: 1
+      failFast: true
+  
+  analyze:
+    run: |
+      melos exec -c 1 -- \
+        flutter analyze .
+    description: |
+      Run `flutter analyze` in all packages.
