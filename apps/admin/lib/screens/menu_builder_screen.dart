@@ -5,10 +5,10 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 // Color Palette
-const Color textPrimary = Color(0xFF30364F); // Dark Blue/Navy
-const Color primaryAccent = Color(0xFFACBAC4); // Light Blue/Greyish
-const Color secondaryAccent = Color(0xFFE1D9BC); // Beige/Sand
-const Color backgroundLight = Color(0xFFF0F0DB); // Light Beige/Off-white
+const Color textPrimary = Color(0xFF4B2E2B); // Dark Chocolate
+const Color primaryAccent = Color(0xFF8C5A3C); // Terra Cotta
+const Color secondaryAccent = Color(0xFFC08552); // Copper/Tan
+const Color backgroundLight = Color(0xFFFFF8F0); // Warm Off-White
 
 class MenuItem {
   String name;
